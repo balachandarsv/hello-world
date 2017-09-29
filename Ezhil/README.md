@@ -41,6 +41,7 @@ To install pip in Linux, run the appropriate command for your distribution as fo
 ### Install PIP On Debian/Ubuntu
 
 `apt install python-pip`	#python 2
+
 `apt install python3-pip`	#python 3
 
 ### Install PIP On CentOS and RHEL
@@ -48,21 +49,25 @@ To install pip in Linux, run the appropriate command for your distribution as fo
 Unluckily, pip is not packaged in official software repositories of CentOS/RHEL. So you need to enable the EPEL repository and then install it like this.
 
 `yum install epel-release` 
+
 `yum install python-pip`
 
 ### Install PIP on Fedora
 
 `dnf install python-pip`	#Python 2
+
 `dnf install python3`		#Python 3
 
 ### Install PIP on Arch Linux
 
 `pacman -S python2-pip`	        #Python 2
+
 `pacman -S python-pip`	        #Python 3
 
 ### Install PIP on openSUSE
 
 `zypper install python-pip`	#Python 2
+
 `zypper install python3-pip`	#Python 3
 
 
